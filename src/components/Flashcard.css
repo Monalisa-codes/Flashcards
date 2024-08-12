@@ -1,0 +1,29 @@
+.front, .back{
+    padding: 20px;
+    background-color: rgb(255, 255, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+.back{
+    background-color: rgb(191, 195, 239);
+    font-size: 30px;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 10px;
+    width: 90%;
+    left: 5%;
+    z-index: 10;
+    backface-visibility: hidden;
+    }
+.prev-btn, .next-btn{
+    width: 10rem;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    color: blue;
+    border-radius: 30px;
+    cursor: pointer;
+}
